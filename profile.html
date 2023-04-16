@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page -SocialBook</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome Icons import Kit -->
+    <script
+      src="https://kit.fontawesome.com/9db875e131.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="nav-left">
+        <img class="logo" src="./images/logo.png" alt="SocialBook logo" />
+        <ul>
+          <li>
+            <img src="./images/notification.png" alt="Notification icon" />
+          </li>
+          <li>
+            <img src="./images/inbox.png" alt="Inbox icon" />
+          </li>
+          <li>
+            <img src="./images/video.png" alt="Video icon" />
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="images/search.png" alt="search icon" />
+          <input type="text" placeholder="Search..." />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="images/profile-pic.png" alt="profile picture icon" />
+        </div>
+      </div>
+
+      <!-- Settings menu -->
+      <div class="settings-menu">
+        <div id="dark-btn" class="dark-btn">
+          <span></span>
+        </div>
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profile-pic.png" alt="User Profile Image" />
+            <div>
+              <p>John Nicholson</p>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="images/feedback.png" alt="Feedback Image" />
+            <div>
+              <p>Give feedback</p>
+              <a href="#">Help us to improve the new design</a>
+            </div>
+          </div>
+          <hr />
+          <div class="settings-links">
+            <img src="images/setting.png" class="settings-icon" />
+            <a href="#"
+              >Settings & Privacy <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/help.png" class="settings-icon" />
+            <a href="#"
+              >Help & Support <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/display.png" class="settings-icon" />
+            <a href="#"
+              >Display & Accessibility <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/logout.png" class="settings-icon" />
+            <a href="#">Logout<img src="images/arrow.png" width="10px" /></a>
+          </div>
+        </div>
+      </div>
+      <!-- Settings menu ends here-->
+    </nav>
+    <!-- Navigation ends here -->
+
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>Copyright 2023 - fivexfast</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
